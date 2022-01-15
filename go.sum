@@ -1,0 +1,6 @@
+github.com/latonaio/golang-logging-library v1.0.7 h1:Swve+j56ZSn2l3Zsc8qs23isyfuz6TQCRADmdh1qNAQ=
+github.com/latonaio/golang-logging-library v1.0.7/go.mod h1:k9d98p3JsNZzDxqPpLPgiVFBXvPV6Urj3iSZqR7x0jw=
+github.com/latonaio/sap-api-post-header-setup v1.0.0 h1:1QTbuAsPXHFLetn1P2lzdJsaLhpJEPW3TNrmH3VJZK4=
+github.com/latonaio/sap-api-post-header-setup v1.0.0/go.mod h1:VJNQf53aNxHfcXjHdnQtglzrwClUSRTycjAi2OXcgno=
+golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 h1:go1bK/D/BFZV2I8cIQd1NKEZ+0owSTG1fDTci4IqFcE=
+golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
