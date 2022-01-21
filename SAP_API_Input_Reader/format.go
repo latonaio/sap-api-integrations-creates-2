@@ -5,24 +5,24 @@ import (
 )
 
 func (sdc *SDC) ConvertToHeader() *requests.Header {
+	data := sdc.XXXXXXXX
 	return &requests.Header{
-		XXXXXXXX:                   sdc.XXXXXXXX.XXXXXXXX,
-		ToItem:                     sdc.ConvertToToItem(),
-	}
-}
-
-func (sdc *SDC) ConvertToToItem() *requests.ToItem {
-	return &requests.ToItem{
-		ToItemResults: []requests.ToItemResults{
-			{
-				XXXXXXXX:           sdc.XXXXXXXX.XXXXXXXX,
+		XXXXXXXX:                   data.XXXXXXXX,
+		ToItem: &struct {
+			ToItemResults []*requests.Item `json:"results"`
+		}{
+			ToItemResults: []*requests.Item{
+				sdc.ConvertToItem(),
 			},
 		},
 	}
 }
 
 func (sdc *SDC) ConvertToItem() *requests.Item {
+	dataHeader := sdc.XXXXXXXX
+	data := sdc.XXXXXXXX.XXXXXXXXItem
 	return &requests.Item{
-		XXXXXXXX:                   sdc.XXXXXXXX.XXXXXXXX,
+		XXXXXXXX:                   dataHeader.XXXXXXXX,
+		XXXXXXXX:                   data.XXXXXXXX,
 	}
 }

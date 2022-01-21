@@ -17,7 +17,7 @@ func ConvertToHeader(raw []byte, l *logger.Logger) (*Header, error) {
 	data := pm.D
 	header := &Header{
 		XXXXXXXX:            data.XXXXXXXX,
-		XXXXXXXX:            data.ToItem.ToItemResults[0].XXXXXXXX,
+		XXXXXXXX:            data.ToItem.ToItemResults[0],
 	}
 
 	return header, nil
