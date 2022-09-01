@@ -2,6 +2,7 @@ package sap_api_caller
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"sap-api-integrations-xxxxxxxx-creates/SAP_API_Caller/requests"
@@ -9,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/latonaio/golang-logging-library/logger"
+	"github.com/latonaio/golang-logging-library-for-sap/logger"
 	sap_api_post_header_setup "github.com/latonaio/sap-api-post-header-setup"
 	"golang.org/x/xerrors"
 )
