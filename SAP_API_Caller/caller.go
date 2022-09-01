@@ -35,7 +35,7 @@ func (c *SAPAPICaller) AsyncPostXXXXXXXX(
 	item              *requests.Item,
 	accepter []string) {
 	wg := &sync.WaitGroup{}
-	wg.Add(1)
+	wg.Add(len(accepter))
 	for _, fn := range accepter {
 		switch fn {
 		case "Header":
