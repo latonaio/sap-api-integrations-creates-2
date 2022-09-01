@@ -40,7 +40,7 @@ accepter において 下記の例のように、データの種別（＝APIの�
 ここでは、"Header" が指定されています。    
   
 ```
-"api_schema": "SAPXXXXXXXXCreate",
+"api_schema": "SAPXXXXXXXXCreates",
 "accepter": ["Header"],
 "xxxxx_xxxxx": "",
 "deleted": false
@@ -51,7 +51,7 @@ accepter において 下記の例のように、データの種別（＝APIの�
 全データを取得する場合、sample.json は以下のように記載します。  
 
 ```
-"api_schema": "SAPXXXXXXXXCreate",
+"api_schema": "SAPXXXXXXXXCreates",
 "accepter": ["All"],
 "xxxxx_xxxxx": "",
 "deleted": false
