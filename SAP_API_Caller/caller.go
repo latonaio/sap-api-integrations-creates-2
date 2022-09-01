@@ -90,8 +90,9 @@ func (c *SAPAPICaller) callXXXXXXXXSrvAPIRequirementHeader(api string, header *r
 	return data, nil
 }
 
-func (c *SAPAPICaller) Item(item *requests.Header) {
-	outputDataItem, err := c.callXXXXXXXXSrvAPIRequirementItem("A_XXXXXXXXItem", item)
+func (c *SAPAPICaller) Item(item *requests.Item) {
+	url := fmt.Sprintf("A_XXXXXXXX('%s')/to_Item", item.XXXXXXXX)
+	outputDataItem, err := c.callXXXXXXXXSrvAPIRequirementItem(url, item)
 	if err != nil {
 		c.log.Error(err)
 		return
