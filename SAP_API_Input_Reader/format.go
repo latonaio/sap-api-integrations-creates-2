@@ -19,7 +19,7 @@ func (sdc *SDC) ConvertToHeader() *requests.Header {
 }
 
 func (sdc *SDC) ConvertToItem() *requests.Item {
-	dataHeader := sdc.XXXXXXXX
+	dataXXXXXXXX := sdc.XXXXXXXX
 	data := sdc.XXXXXXXX.XXXXXXXXItem
 	return &requests.Item{
 		XXXXXXXX:                   dataHeader.XXXXXXXX,
